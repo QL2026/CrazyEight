@@ -35,7 +35,7 @@ export default function App() {
   const [status, setStatus] = useState<GameStatus>(GameStatus.HOME);
   const [activeSuit, setActiveSuit] = useState<Suit | null>(null);
   const [winner, setWinner] = useState<PlayerType | null>(null);
-  const [message, setMessage] = useState<string>("欢迎来到 Qianyi 疯狂8点！");
+  const [message, setMessage] = useState<string>("欢迎来到 Zhongyiyi疯狂8点！");
   const [showSuitPicker, setShowSuitPicker] = useState(false);
   const [showInstructions, setShowInstructions] = useState(false);
   const [wins, setWins] = useState(() => {
@@ -278,7 +278,7 @@ export default function App() {
                 <Layers className="text-white w-12 h-12 sm:w-16 sm:h-16" />
               </div>
               <h1 className="text-5xl sm:text-7xl font-black tracking-tighter mb-4 bg-gradient-to-b from-white to-emerald-200 bg-clip-text text-transparent">
-                Qianyi 疯狂8点
+                Zhongyiyi疯狂8点
               </h1>
               <p className="text-emerald-200/60 text-lg sm:text-xl font-medium tracking-wide max-w-md mx-auto mb-12">
                 经典纸牌游戏，智慧与运气的对决。
@@ -339,7 +339,7 @@ export default function App() {
                   <Layers className="text-white w-6 h-6" />
                 </button>
                 <div>
-                  <h1 className="font-bold text-lg tracking-tight">Qianyi 疯狂8点</h1>
+                  <h1 className="font-bold text-lg tracking-tight">Zhongyiyi疯狂8点</h1>
                   <p className="text-xs text-emerald-200/60 uppercase tracking-widest font-semibold">标准版</p>
                 </div>
               </div>
